@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main styles */
+.main {
+    padding: 20px;
+    color: white;
+}
+
+.contents {
+    text-align: center;
+}
+
+.content-1 {
+    margin-bottom: 40px;
+}
+.content-2{
+    margin-top: 50px;
+}
+.content-3{
+    margin-top: 30px;
+}
+.sub-input{
+    font-size: 12px;
+    text-align: center; 
+}
+
+.main .input-box{
+    text-align: center; 
+    position: relative;
+}
+.input-box .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('icon.png');
+    background-size: cover;
+}
+
+.input-box input::placeholder {
+    padding-left: 20px;
+}
+
+.input-box input {
+    padding-left: 30px;
+}
+
+.main .input-box input{
+    display: flex;
+  align-items: center;
+  border: 2px solid #cf8243;
+  border-radius: 2px;
+  padding: 15px;
+  width: 100%;
+}
+
+.main .button-end{
+    text-align: center;
+    justify-content: center;
+}
+
+.main .button-end button{
+    width: 220px;
+    display: inline-block;
+    padding: 18px 25px;
+    margin: 0 20px;
+    background-color: #2783e7;
+    color: #fff;
+    border: 1.5px solid #ffffff;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main .button-end-2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.main .button-end-2 button{
+    display: inline-block;
+    padding: 2px 25px;
+    background-color: #16ea16;
+    color: #fff;
+    border: 1.5px solid #ffffff;
+    border-radius: 2px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
